@@ -1,0 +1,26 @@
+{
+    "name": "inanc/banana-service-api-controller",
+    "version": "1.0.0",
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "BananaService\\ApiController\\": "./src"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0",
+        "tholabs/creator": "^0.8",
+        "inanc/banana-service": "== 1.0.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../.sources"
+        },
+        {
+            "type": "path",
+            "url": "../connector-essentials"
+        }
+    ]
+}

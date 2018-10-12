@@ -1,0 +1,7 @@
+{
+    "name": "banana-service",
+    "type": "service",
+    "files": [
+        "src/BananaService.php"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name": "inanc/banana-service-essentials",
+    "version": "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "BananaService\\Essentials\\": "./src/"
+        }
+    }
+}
