@@ -1,6 +1,9 @@
 # https://alpinelinux.org/
 # minimal container with nginx, php & composer
 FROM alpine:latest
+
+EXPOSE 8080
+
 RUN apk update && apk upgrade
 RUN apk add nginx php php-fpm composer supervisor
 
