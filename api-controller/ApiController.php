@@ -11,7 +11,7 @@ if (php_sapi_name() === 'cli-server') {
 use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 $app = new \Slim\App;
 $creator = new \Creator\Creator;
