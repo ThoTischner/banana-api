@@ -1,0 +1,23 @@
+{
+    "name": "inanc/banana-service-api-controller-app",
+    "version": "1.0.0",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "inanc/banana-service-api-controller": "1.0.0"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./api-controller"
+        },
+        {
+            "type": "path",
+            "url": "./.sources"
+        },
+        {
+            "type": "path",
+            "url": "./connector-essentials"
+        }
+    ]
+}

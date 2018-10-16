@@ -1,0 +1,2 @@
+RewriteEngine ON
+RewriteRule .*  api-controller/ApiController.php
