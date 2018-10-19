@@ -14,13 +14,9 @@
         "inanc/banana-service": "== 1.0.0"
     },
     "repositories": [
-        {
-            "type": "path",
-            "url": "../.sources"
-        },
-        {
-            "type": "path",
-            "url": "../connector-essentials"
-        }
-    ]
+            {
+                "type": "composer",
+                "url": "http://service-api-dev.thomann.de:8001/composer"
+            }
+        ]
 }
